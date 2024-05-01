@@ -1,0 +1,14 @@
+{
+  "name": "cypress-v2",
+  "version": "1.0.0",
+  "description": "Test of interface with Walmyr",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "MatheusDevQa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
