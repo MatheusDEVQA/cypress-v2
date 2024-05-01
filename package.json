@@ -4,7 +4,8 @@
   "description": "Test of interface with Walmyr",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "author": "MatheusDevQa",
   "license": "ISC",
