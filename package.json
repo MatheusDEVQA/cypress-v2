@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportWeigth=860",
+    "cy:run:mobile": "cypress run --config viewportWidth=410 viewportWeigth=860"
   },
   "author": "MatheusDevQa",
   "license": "ISC",
